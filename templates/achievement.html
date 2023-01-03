@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Achievement{% endblock title %}
+    {% block body %}
+    <main>
+      <!-- 見出し --> 
+      <div>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Achievement</h1>
+                    <p class="lead text-muted"></p>
+                </div>
+            </div>
+        </section>
+      </div>
+
+      <!-- カード部分 -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-3"><!-- marginとかカード配置調整 -->
+          <div class="col">
+            <div class="card text-white ">
+              <img src="{% static 'img/IMG_1734.jpg' %}" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">ssssssssssssssss</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white">
+              <img src="{% static 'img/IMG_1734.jpg' %}" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">ssssssssssssssss</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white">
+              <img src="{% static 'img/IMG_1734.jpg' %}" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">ssssssssssssssss</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white">
+              <img src="{% static 'img/IMG_1734.jpg' %}" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">aaaaaaaaaaaaaaaa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    {% endblock body %}
+    
+</html>
